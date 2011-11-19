@@ -1,6 +1,16 @@
 ;; emacs configuration
 ;; inspired by Avdi Grimm's config
 
+(push "/usr/local/bin" exec-path)
+
+(setq-default tab-width 2)
+(setq-default indent-tabs-mode nil)
+
+(fset 'yes-or-no-p 'y-or-n-p)
+
+(set-frame-font "Menlo-14")
+(load-theme 'tango)
+
 ;; Directories and file names
 (setq stask-emacs-init-file (or load-file-name buffer-file-name))
 (setq stask-emacs-config-dir
