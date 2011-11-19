@@ -11,7 +11,6 @@
  '(org-export-htmlize-output-type (quote css))
  '(org-export-htmlized-org-css-url nil)
  '(org2blog/wp-default-categories (quote ("Uncategorized")))
- '(package-archives (quote (("gnu" . "http://elpa.gnu.org/packages/") ("marmalade" . "http://marmalade-repo.org/packages/") ("Tromey" . "http://tromey.com/elpa/"))))
  '(tool-bar-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
