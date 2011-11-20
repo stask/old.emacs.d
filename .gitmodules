@@ -7,3 +7,6 @@
 [submodule "elisp/external/yaml-mode"]
 	path = elisp/external/yaml-mode
 	url = git://github.com/yoshiki/yaml-mode.git
+[submodule "elisp/external/textmate.el"]
+	path = elisp/external/textmate.el
+	url = git://github.com/defunkt/textmate.el.git
