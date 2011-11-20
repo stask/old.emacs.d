@@ -4,3 +4,5 @@
 	  (lambda () 
       (rvm-activate-corresponding-ruby)
       (setq ruby-deep-indent-paren nil)))
+
+(require 'rspec-mode)

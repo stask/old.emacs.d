@@ -10,3 +10,6 @@
 [submodule "elisp/external/textmate.el"]
 	path = elisp/external/textmate.el
 	url = git://github.com/defunkt/textmate.el.git
+[submodule "elisp/external/rspec-mode"]
+	path = elisp/external/rspec-mode
+	url = git://github.com/pezra/rspec-mode.git
