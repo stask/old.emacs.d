@@ -13,3 +13,6 @@
 [submodule "elisp/external/rspec-mode"]
 	path = elisp/external/rspec-mode
 	url = git://github.com/pezra/rspec-mode.git
+[submodule "elisp/external/evil"]
+	path = elisp/external/evil
+	url = git://gitorious.org/evil/evil.git
