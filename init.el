@@ -9,7 +9,7 @@
 (fset 'yes-or-no-p 'y-or-n-p)
 
 (set-frame-font "Menlo-14")
-(load-theme 'tango)
+(load-theme 'tango-dark)
 
 ;; Directories and file names
 (setq stask-emacs-init-file (or load-file-name buffer-file-name))
