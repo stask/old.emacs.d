@@ -3,18 +3,18 @@
   (interactive)
   (if window-system
       (progn
-        ;; use 160 char wide window for largeish displays
-        ;; and smaller 120 column windows for smaller displays
+        ;; use 180 char wide window for largeish displays
+        ;; and smaller 140 column windows for smaller displays
         ;; pick whatever numbers make sense for you
         (if (> (x-display-pixel-width) 1280)
-            (add-to-list 'default-frame-alist (cons 'width 160))
-          (add-to-list 'default-frame-alist (cons 'width 120)))
-        ;; for the height, subtract 50 pixels
+            (add-to-list 'default-frame-alist (cons 'width 180))
+          (add-to-list 'default-frame-alist (cons 'width 140)))
+        ;; for the height, subtract 44 pixels
         ;; from the screen height (for panels, menubars and 
         ;; whatnot), then divide by the height of a char to
         ;; get the height we want
         (add-to-list 'default-frame-alist
-                     (cons 'height (/ (- (x-display-pixel-height) 50)
+                     (cons 'height (/ (- (x-display-pixel-height) 44)
                                       (frame-char-height)))))))
 (set-frame-size-according-to-resolution)
 

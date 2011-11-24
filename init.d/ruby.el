@@ -1,3 +1,4 @@
+(require 'ruby-mode)
 (add-hook 'ruby-mode-hook
 	  '(lambda () (run-hooks 'stask-code-modes-hook)))
 (add-hook 'ruby-mode-hook
