@@ -16,3 +16,6 @@
 [submodule "elisp/external/evil"]
 	path = elisp/external/evil
 	url = git://gitorious.org/evil/evil.git
+[submodule "elisp/external/markdown-mode"]
+	path = elisp/external/markdown-mode
+	url = git://jblevins.org/git/markdown-mode.git
