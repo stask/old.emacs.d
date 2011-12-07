@@ -19,3 +19,6 @@
 [submodule "elisp/external/markdown-mode"]
 	path = elisp/external/markdown-mode
 	url = git://jblevins.org/git/markdown-mode.git
+[submodule "elisp/external/rhtml"]
+	path = elisp/external/rhtml
+	url = git://github.com/eschulte/rhtml.git
