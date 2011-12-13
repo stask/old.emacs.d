@@ -5,3 +5,4 @@ backup
 /tramp
 /elpa
 /auto-save-list
+/swank

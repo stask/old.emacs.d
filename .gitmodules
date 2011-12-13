@@ -22,3 +22,6 @@
 [submodule "elisp/external/rhtml"]
 	path = elisp/external/rhtml
 	url = git://github.com/eschulte/rhtml.git
+[submodule "elisp/external/clojure-mode"]
+	path = elisp/external/clojure-mode
+	url = git://github.com/technomancy/clojure-mode.git

@@ -1,5 +1,5 @@
 (setq stask-required-packages
-      (list 'xml-rpc 'magit 'gh 'inf-ruby))
+      (list 'xml-rpc 'magit 'gh 'inf-ruby 'paredit))
 
 (require 'eieio)
 (setq package-archives
